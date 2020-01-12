@@ -36,7 +36,7 @@ endif
 del -sf "$InstallDir$\"
 ;-----------------------------------------------------
 [Sub_check_exitcode]
-   comment "Test for installation success via exit code"
+   comment "Test for un-install success via exit code"
 set $ExitCode$ = getLastExitCode
 ; informations to exit codes see
 ; http://msdn.microsoft.com/en-us/library/aa372835(VS.85).aspx

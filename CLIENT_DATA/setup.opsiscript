@@ -16,7 +16,7 @@
 
 ; PRODUCTNAME    ica-firefox
 ; PRODUCTSIZE    10 MB
-; PRODUCTVER     58.0.2
+; PRODUCTVER     68.4.1
 ;****************************************
 ; SETUPSCRIPT    setup.opsiscript
 ; UNINSSCRIPT    uninstall.opsiscript
@@ -25,7 +25,7 @@
 ; USE-MST        
 ; INSTALLDIR     C:\Program Files (x86)\Mozilla Firefox
 ;****************************************
-; TIMESTAMP      2/15/2018 22:46:34
+; TIMESTAMP      1/11/2020 22:46:34
 ;****************************************
 
 [Actions]
@@ -60,7 +60,7 @@ Set $SetupType$       = "nsis"
 ; $ProductId$ is the name of the product in opsi, only lower letters, no umlauts, no white spaces, use '-' as a seperator
 Set $ProductId$       = "ica-firefox"
 ;Set $Setupfile$       = "Firefox Installer.exe"
-Set $Setupfile$       = "FirefoxSetup52.6.0esr-"
+Set $Setupfile$       = "FirefoxSetup68.4.1esr-"
 ; the path where we find the product after the installation
 Set $InstallDir$      = "C:\Program Files\Mozilla Firefox"
 Set $LicenseRequired$ = "false"
